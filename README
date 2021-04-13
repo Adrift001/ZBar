@@ -93,3 +93,7 @@ Please include the ZBar version number and a detailed description of
 the problem.  You'll probably have better luck if you're also familiar
 with the concepts from:
     http://www.catb.org/~esr/faqs/smart-questions.html
+
+register: https://guides.cocoapods.org/making/getting-setup-with-trunk.html
+
+trunk: https://guides.cocoapods.org/making/specs-and-specs-repo.html
