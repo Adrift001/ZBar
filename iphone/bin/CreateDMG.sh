@@ -27,8 +27,8 @@ done
 # prepare examples for distribution
 for example in $(find $TARGET_BUILD_DIR/Examples -depth 1 -not -name '.*')
 do
-    rm -rf $example/{build,*.xcodeproj/{*.{mode1v3,pbxuser},project.xcworkspace,xcuserdata},ZBarSDK}
-    cp -af $BUILT_PRODUCTS_DIR/ZBarSDK $example/
+    rm -rf $example/{build,*.xcodeproj/{*.{mode1v3,pbxuser},project.xcworkspace,xcuserdata},ATBarSDK}
+    cp -af $BUILT_PRODUCTS_DIR/ATBarSDK $example/
 done
 
 # override subdir .DS_Stores

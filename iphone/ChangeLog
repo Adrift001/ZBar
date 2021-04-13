@@ -34,7 +34,7 @@ version 1.1.2:
     - fix simulated camera gesture multiple recognition
 
 version 1.1.1:
-  * fix ReaderSample project path to ZBarSDK
+  * fix ReaderSample project path to ATBarSDK
   * README document new examples
     - make ReaderSample scheme public
   * documentation updates

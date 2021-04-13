@@ -21,7 +21,7 @@
 //  http://sourceforge.net/projects/zbar
 //------------------------------------------------------------------------
 
-#import <ZBarSDK/ZBarHelpController.h>
+#import <ATBarSDK/ZBarHelpController.h>
 
 #define MODULE ZBarHelpController
 #import "debug.h"

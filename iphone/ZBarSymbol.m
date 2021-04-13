@@ -21,7 +21,7 @@
 //  http://sourceforge.net/projects/zbar
 //------------------------------------------------------------------------
 
-#import <ZBarSDK/ZBarSymbol.h>
+#import <ATBarSDK/ZBarSymbol.h>
 
 @implementation ZBarSymbol
 

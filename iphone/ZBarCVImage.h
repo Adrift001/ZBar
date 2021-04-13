@@ -21,7 +21,7 @@
 //  http://sourceforge.net/projects/zbar
 //------------------------------------------------------------------------
 
-#import <ZBarSDK/ZBarImage.h>
+#import <ATBarSDK/ZBarImage.h>
 #import <CoreVideo/CoreVideo.h>
 
 // ZBarImage referring to a CVPixelBuffer.  used internally to handle

@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DC5D76DC1370EE8F0069AEF5 /* TabReader */,
-				DC5D76FC1370F0E30069AEF5 /* ZBarSDK */,
+				DC5D76FC1370F0E30069AEF5 /* ATBarSDK */,
 				DC5D76D51370EE8F0069AEF5 /* Frameworks */,
 				DC5D76D31370EE8F0069AEF5 /* Products */,
 			);
@@ -156,25 +156,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC5D76FC1370F0E30069AEF5 /* ZBarSDK */ = {
+		DC5D76FC1370F0E30069AEF5 /* ATBarSDK */ = {
 			isa = PBXGroup;
 			children = (
 				DC5D76FD1370F0E30069AEF5 /* Headers */,
 				DC5D77141370F0E30069AEF5 /* libzbar.a */,
 				DC5D77151370F0E30069AEF5 /* Resources */,
 			);
-			path = ZBarSDK;
+			path = ATBarSDK;
 			sourceTree = "<group>";
 		};
 		DC5D76FD1370F0E30069AEF5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DC5D76FE1370F0E30069AEF5 /* ZBarSDK */,
+				DC5D76FE1370F0E30069AEF5 /* ATBarSDK */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		DC5D76FE1370F0E30069AEF5 /* ZBarSDK */ = {
+		DC5D76FE1370F0E30069AEF5 /* ATBarSDK */ = {
 			isa = PBXGroup;
 			children = (
 				DC5D76FF1370F0E30069AEF5 /* zbar */,
@@ -190,7 +190,7 @@
 				DC5D77121370F0E30069AEF5 /* ZBarSDK.h */,
 				DC5D77131370F0E30069AEF5 /* ZBarSymbol.h */,
 			);
-			path = ZBarSDK;
+			path = ATBarSDK;
 			sourceTree = "<group>";
 		};
 		DC5D76FF1370F0E30069AEF5 /* zbar */ = {
@@ -365,7 +365,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/ATBarSDK\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,7 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/ATBarSDK\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

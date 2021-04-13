@@ -96,7 +96,7 @@
 			children = (
 				DCD6E0CE10B0AD41002005CD /* prefix.pch */,
 				DCD6E0CF10B0AD41002005CD /* readertest.m */,
-				DC48C4BA1219E5F70047193B /* ZBarSDK */,
+				DC48C4BA1219E5F70047193B /* ATBarSDK */,
 				DC3CEAC61209C07400D7A786 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -128,25 +128,25 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		DC48C4BA1219E5F70047193B /* ZBarSDK */ = {
+		DC48C4BA1219E5F70047193B /* ATBarSDK */ = {
 			isa = PBXGroup;
 			children = (
 				DC48C4BB1219E5F70047193B /* Headers */,
 				DC48C4D01219E5F70047193B /* libzbar.a */,
 				DC48C4D11219E5F70047193B /* Resources */,
 			);
-			path = ZBarSDK;
+			path = ATBarSDK;
 			sourceTree = "<group>";
 		};
 		DC48C4BB1219E5F70047193B /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DC48C4BC1219E5F70047193B /* ZBarSDK */,
+				DC48C4BC1219E5F70047193B /* ATBarSDK */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		DC48C4BC1219E5F70047193B /* ZBarSDK */ = {
+		DC48C4BC1219E5F70047193B /* ATBarSDK */ = {
 			isa = PBXGroup;
 			children = (
 				DC48C4BD1219E5F70047193B /* zbar */,
@@ -160,7 +160,7 @@
 				DC48C4CE1219E5F70047193B /* ZBarSDK.h */,
 				DC48C4CF1219E5F70047193B /* ZBarSymbol.h */,
 			);
-			path = ZBarSDK;
+			path = ATBarSDK;
 			sourceTree = "<group>";
 		};
 		DC48C4BD1219E5F70047193B /* zbar */ = {
@@ -271,7 +271,7 @@
 				INFOPLIST_FILE = readertest.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/ATBarSDK\"",
 				);
 				PRODUCT_NAME = readertest;
 			};
@@ -286,7 +286,7 @@
 				INFOPLIST_FILE = readertest.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ZBarSDK\"",
+					"\"$(SRCROOT)/ATBarSDK\"",
 				);
 				PRODUCT_NAME = readertest;
 			};

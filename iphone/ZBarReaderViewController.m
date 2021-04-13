@@ -21,11 +21,11 @@
 //  http://sourceforge.net/projects/zbar
 //------------------------------------------------------------------------
 
-#import <ZBarSDK/ZBarReaderViewController.h>
-#import <ZBarSDK/ZBarReaderView.h>
-#import <ZBarSDK/ZBarCaptureReader.h>
-#import <ZBarSDK/ZBarHelpController.h>
-#import <ZBarSDK/ZBarCameraSimulator.h>
+#import <ATBarSDK/ZBarReaderViewController.h>
+#import <ATBarSDK/ZBarReaderView.h>
+#import <ATBarSDK/ZBarCaptureReader.h>
+#import <ATBarSDK/ZBarHelpController.h>
+#import <ATBarSDK/ZBarCameraSimulator.h>
 
 #define MODULE ZBarReaderViewController
 #import "debug.h"

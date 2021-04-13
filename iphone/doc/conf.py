@@ -13,7 +13,7 @@ project = u'ZBar iPhone SDK'
 copyright = u'2010-2012, Jeff Brown et al'
 
 today_fmt = '%Y-%m-%d'
-info = readPlist('../res/ZBarSDK-Info.plist')
+info = readPlist('../res/ATBarSDK-Info.plist')
 version = 'X.Y'
 if info:
     version = info['CFBundleVersion']
@@ -47,7 +47,7 @@ html_theme_options = {
     'codetextcolor': 'black',
 }
 
-html_short_title = 'ZBarSDK ' + version
+html_short_title = 'ATBarSDK ' + version
 html_title = 'ZBar iPhone SDK Documentation'
 html_static_path = ['static']
 html_favicon = '../../zbar.ico'
@@ -66,7 +66,7 @@ latex_font_size = '10pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual])
 latex_documents = [
-  ('index', 'ZBarSDK.tex', u'ZBar iPhone SDK Documentation',
+  ('index', 'ATBarSDK.tex', u'ZBar iPhone SDK Documentation',
    u'Jeff Brown', 'manual'),
 ]
 

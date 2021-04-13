@@ -9,8 +9,8 @@
    icon size = 64
    grid spacing = 32
 
-   $ java -Xmx2000m -jar batik-rasterizer.jar -w 4096 -h 4864 -d res/ZBarSDK-bg.8x.png res/ZBarSDK-bg.svg
-   $ convert -resize 12.5% res/ZBarSDK-bg.8x.png res/ZBarSDK-bg.png
+   $ java -Xmx2000m -jar batik-rasterizer.jar -w 4096 -h 4864 -d res/ATBarSDK-bg.8x.png res/ATBarSDK-bg.svg
+   $ convert -resize 12.5% res/ATBarSDK-bg.8x.png res/ATBarSDK-bg.png
 -->
 
 <svg version="1.1" id="top"

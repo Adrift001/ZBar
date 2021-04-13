@@ -42,15 +42,15 @@ Integration
 The recommended installation method is to simply copy the SDK into your
 Xcode project:
 
-1. Open ZBarSDK-|version|.dmg in the Finder.
+1. Open ATBarSDK-|version|.dmg in the Finder.
 
-2. Drag the :file:`ZBarSDK` folder into your Xcode project.  In the dialog
+2. Drag the :file:`ATBarSDK` folder into your Xcode project.  In the dialog
    that appears, you should choose to **copy** the SDK into your project by
    checking the box.  The target that you want to link with the library should
    also be selected in the target list.
 
 3. Link the following additional frameworks to any targets that link with the
-   ZBarSDK.  You should set the first three to use weak references and
+   ATBarSDK.  You should set the first three to use weak references and
    configure an appropriate deployment target if you still need to support
    iOS 3:
 
@@ -83,9 +83,9 @@ Upgrading from an Older Version
 If you are using an older version of the *SDK* (NB, skip to the next section
 if you are currently using Mercurial), upgrading is straightforward:
 
-1. Delete the current ZBarSDK group from your project.  You should choose
+1. Delete the current ATBarSDK group from your project.  You should choose
    to delete the files if you copied them into your project.
-2. Drag the new ZBarSDK from the DMG into your project.
+2. Drag the new ATBarSDK from the DMG into your project.
 
 Clean out and rebuild your project with the new version.
 
@@ -124,7 +124,7 @@ Continuing with Mercurial
 Alternatively, you may still prefer to select Mercurial revisions.  You have a
 few choices for this:
 
-* You may build your own ZBarSDK and copy/link it into your project.  This is
+* You may build your own ATBarSDK and copy/link it into your project.  This is
   the same as `Switching to the Binary Distribution`_, except that you use
   your own version of the SDK.  In this case you need to manually rebuild the
   SDK when you update it.
@@ -133,7 +133,7 @@ few choices for this:
 * You may leave zbar.xcodeproj as a project dependency and just link libzbar.a
   into your project, as before.  You will need to update the target dependency
   (the library target changed names to libzbar) and add the
-  :file:`iphone/include/ZBarSDK` directory to "Header Search Paths"
+  :file:`iphone/include/ATBarSDK` directory to "Header Search Paths"
 
 In any case, you should remove the references to the zbar headers from
 :file:`prefix.pch` (or your source files) and replace them with::

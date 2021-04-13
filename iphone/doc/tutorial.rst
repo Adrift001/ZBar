@@ -98,9 +98,9 @@ Now for the exciting part - let's add a barcode reader!
 1. If you have not done so already, download the latest SDK from
    http://zbar.sourceforge.net/iphone
 
-2. Double-click the disk image, ZBarSDK-|version|.dmg in the Finder to open it.
+2. Double-click the disk image, ATBarSDK-|version|.dmg in the Finder to open it.
 
-3. Drag the :file:`ZBarSDK` folder into your Xcode project.  Make sure that
+3. Drag the :file:`ATBarSDK` folder into your Xcode project.  Make sure that
    the "Copy Items into destination group's folder" checkbox is checked.
 
 4. Open the target build settings and find ``Link Binary With Libraries``.

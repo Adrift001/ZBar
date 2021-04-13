@@ -21,7 +21,7 @@ and libzbar.a and revert any related build settings.
 
 To add the SDK to an Xcode project:
 
-   1. Drag ZBarSDK into your Xcode project.
+   1. Drag ATBarSDK into your Xcode project.
    3. Add these system frameworks to your project:
       * AVFoundation.framework (weak)
       * CoreMedia.framework (weak)
@@ -61,6 +61,6 @@ Copyright and License
 Licensed under the GNU Lesser General Public License, version 2.1.
 http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
 
-Copyright 2008-2011 © Jeff Brown <spadix@users.sourceforge.net> et al
+Copyright 2008-2011 ï¿½ Jeff Brown <spadix@users.sourceforge.net> et al
 
 See the included files COPYING and LICENSE for details

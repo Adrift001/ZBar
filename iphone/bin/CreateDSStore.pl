@@ -53,7 +53,7 @@ writeDSDBEntries($ARGV[0] || "DS_Store",
                 backgroundColorBlue => [real => .5],
                 backgroundImageAlias => [
                     data => Mac::Finder::AliasRecord->new(
-                        path => 'ZBarSDK:.background:ZBarSDK-bg.png',
+                        path => 'ATBarSDK:.background:ATBarSDK-bg.png',
                         volumeFS => 'HFS+')->write()
                 ],
             },
@@ -61,7 +61,7 @@ writeDSDBEntries($ARGV[0] || "DS_Store",
         vstl => "icnv",
     ),
     makeEntries("README",       Iloc_xy => [ 4.5 * 32,  2.5  * 32 ]),
-    makeEntries("ZBarSDK",      Iloc_xy => [ 4.5 * 32,  7.5  * 32 ]),
+    makeEntries("ATBarSDK",      Iloc_xy => [ 4.5 * 32,  7.5  * 32 ]),
     makeEntries("ChangeLog",    Iloc_xy => [  4  * 32, 12.5  * 32 ]),
     makeEntries("Documentation.html",
                                 Iloc_xy => [  8  * 32, 12.5  * 32 ]),
